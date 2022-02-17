@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 var app = express();
 
-const rutaUsuario=require("./sources/routes/rutasCurso")
+const rutaUsuario=require("./sources/routes/rutasUsuario")
 const rutaCurso=require("./sources/routes/rutasCurso")
 const rutaAsigns=require("./sources/routes/rutasAsings")
  
